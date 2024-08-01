@@ -6,7 +6,7 @@ class Solution {
     public int countSeniors(String[] details) {
         ArrayList<Integer> ages = new ArrayList<Integer>();
         for(String detail : details){
-            ages.add(Integer.parseInt(detail.substring(11,12)));
+            ages.add(Integer.parseInt(detail.substring(11,13)));
         }
         int count =0;
         for(int i =0; i<ages.size(); i++){
